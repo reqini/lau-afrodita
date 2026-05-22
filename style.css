@@ -1,5 +1,5 @@
 /* ===================================
-   MAREA · Style Sheet
+   Lau Afrodita · Style Sheet
    Energía Femenina & Sanación
    =================================== */
 
@@ -544,7 +544,7 @@ section { position: relative; }
 }
 
 #servicios::before {
-  content: 'MAREA';
+  content: 'Lau Afrodita';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -659,7 +659,7 @@ section { position: relative; }
 
 .service-cta:hover { gap: 14px; color: var(--rose-pale); }
 
-/* ── SUSCRIPCIÓN MAREA ───────────── */
+/* ── SUSCRIPCIÓN Lau Afrodita ───────────── */
 #suscripcion {
   padding: 100px 5%;
   background: var(--pearl);

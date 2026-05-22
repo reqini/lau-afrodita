@@ -1,5 +1,5 @@
 /* ===================================
-   MAREA · Script.js
+   Lau Afrodita · Script.js
    =================================== */
 
 // ── Imágenes ────────────────────────
@@ -220,7 +220,7 @@ Teléfono: ${telefono}`
 
 function buildCalendarText(nombre, servicio, fecha, hora, duracion, tel) {
   return `Sesión: ${servicio}
-Terapeuta: Marea – Energía Femenina
+Terapeuta: Lau Afrodita – Energía Femenina
 Cliente: ${nombre} (${tel})
 Fecha: ${fecha}
 Hora: ${hora}
@@ -258,7 +258,7 @@ function showModal({ nombre, servicio, fechaStr, selectedTime, duracion, calText
     const startISO = buildISODate(selectedDate, selectedTime);
     const endISO   = buildISODate(selectedDate, selectedTime, duracion);
     const gcUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE`
-      + `&text=${encodeURIComponent('Sesión: ' + servicio + ' – Marea')}`
+      + `&text=${encodeURIComponent('Sesión: ' + servicio + ' – Lau Afrodita')}`
       + `&dates=${startISO}/${endISO}`
       + `&details=${encodeURIComponent(calText)}`
       + `&sf=true&output=xml`;
