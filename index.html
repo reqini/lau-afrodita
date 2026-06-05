@@ -1456,6 +1456,24 @@ footer::before {
   margin-bottom: 28px;
 }
 
+.developer-credit {
+  padding-top: 14px;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.developer-credit a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 900;
+  transition: opacity 0.3s ease;
+}
+
+.developer-credit a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 .social-links {
   display: flex;
   gap: 14px;
@@ -2757,10 +2775,23 @@ footer::before {
   </div>
 
   <div class="footer-bottom">
-    <p>© 2026 Lau Amazona · Energía Femenina & Sanación Holística</p>
-    <p>Diseñado con amor ✦ Buenos Aires, Argentina</p>
+    <div class="developer-credit">
+    <span>Desarrollado por </span>
+    <a
+      href="https://wa.me/541157935007"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Luciano Recchini
+    </a>
   </div>
+  <p>© 2026 Lau Amazona · Energía Femenina & Sanación Holística</p>
+  <p>Diseñado con amor ✦ Buenos Aires, Argentina</p>
+</div>
+
+
 </footer>
+
 
 <!-- ══════════════════════════════════════
      WHATSAPP FLOAT
